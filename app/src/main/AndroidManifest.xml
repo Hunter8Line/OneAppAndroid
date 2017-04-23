@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.novaksoftworks.oneapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo2_round"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        android:installLocation="preferExternal" >
+
+        <activity android:name=".Starting" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".web_softworks" android:label="@string/app_name" />
+        <activity android:name=".web_network" android:label="@string/app_name" />
+        <activity android:name=".web_server" android:label="@string/app_name" />
+        <activity
+            android:name=".web_web"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>

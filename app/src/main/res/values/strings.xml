@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">OneApp</string>
+    <string name="Start_Description">Below is a list of services provided by Novak Network and subdivisions of.</string>
+    <string name="novak_network_website">Novak Network</string>
+    <string name="novak_softworks_website">Novak Softworks</string>
+    <string name="novak_server_website">Novak Server</string>
+    <string name="novak_web_website">Novak Web</string>
+    <string name="websites">Websites</string>
+    <string name="temp_text">Everything below this point is proof of concept and not working at this time. Sorry</string>
+</resources>
